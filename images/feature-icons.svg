@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100">
+  <style>
+    .feature-icon { fill: #ff7e00; }
+    .feature-bg { fill: rgba(255, 126, 0, 0.1); }
+  </style>
+  
+  <!-- Destination Icon -->
+  <circle class="feature-bg" cx="50" cy="50" r="40" />
+  <path class="feature-icon" d="M50 20 C35 20 25 35 25 50 C25 75 50 85 50 85 C50 85 75 75 75 50 C75 35 65 20 50 20 Z M50 60 C45 60 40 55 40 50 C40 45 45 40 50 40 C55 40 60 45 60 50 C60 55 55 60 50 60 Z" />
+  
+  <!-- Price Icon -->
+  <circle class="feature-bg" cx="150" cy="50" r="40" />
+  <path class="feature-icon" d="M150 25 C150 25 145 30 145 35 L135 35 L135 45 L145 45 C145 50 150 55 150 55 C150 55 155 50 155 45 L165 45 L165 35 L155 35 C155 30 150 25 150 25 Z M150 65 L150 75 M150 15 L150 25" />
+  
+  <!-- Support Icon -->
+  <circle class="feature-bg" cx="250" cy="50" r="40" />
+  <path class="feature-icon" d="M235 35 L235 65 L245 65 L245 75 L255 65 L265 65 L265 35 Z M240 45 L260 45 M240 55 L260 55" />
+  <path class="feature-icon" d="M250 20 C240 20 235 25 235 25 L235 35 L265 35 L265 25 C265 25 260 20 250 20 Z" />
+  
+  <!-- Safety Icon -->
+  <circle class="feature-bg" cx="350" cy="50" r="40" />
+  <path class="feature-icon" d="M350 20 L325 30 L325 50 C325 65 350 80 350 80 C350 80 375 65 375 50 L375 30 Z M340 50 L345 60 L360 40" />
+</svg>

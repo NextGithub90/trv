@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelWonder - Jelajahi Dunia Bersama Kami</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Travel<span>Wonder</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinations">Destinasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Paket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimoni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+                <div class="ms-auto">
+                    <a href="#booking" class="btn btn-primary rounded-pill px-4">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-7">
+                    <div class="hero-content">
+                        <h1>Jelajahi Keindahan Dunia Bersama Kami</h1>
+                        <p>Temukan pengalaman perjalanan tak terlupakan dengan layanan premium dan destinasi eksotis
+                            pilihan kami.</p>
+                        <div class="hero-btns">
+                            <a href="#destinations" class="btn btn-primary rounded-pill me-3">Jelajahi Destinasi</a>
+                            <a href="#contact" class="btn btn-outline-light rounded-pill">Hubungi Kami</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <form class="row g-3">
+                    <div class="col-md-3">
+                        <label for="destination" class="form-label">Destinasi</label>
+                        <select id="destination" class="form-select">
+                            <option selected>Pilih Destinasi...</option>
+                            <option>Bali</option>
+                            <option>Lombok</option>
+                            <option>Raja Ampat</option>
+                            <option>Labuan Bajo</option>
+                            <option>Yogyakarta</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="check-in" class="form-label">Tanggal Berangkat</label>
+                        <input type="date" class="form-control" id="check-in">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="check-out" class="form-label">Tanggal Pulang</label>
+                        <input type="date" class="form-control" id="check-out">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="guests" class="form-label">Jumlah Orang</label>
+                        <select id="guests" class="form-select">
+                            <option selected>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5+</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary w-100">Cari</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section id="destinations" class="popular-destinations section-padding">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>Destinasi Populer</h2>
+                <p>Temukan tempat-tempat menakjubkan untuk perjalanan Anda berikutnya</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-card">
+                        <div class="destination-img">
+                            <img src="images/bali.jpg" alt="Bali" class="img-fluid">
+                            <div class="destination-overlay">
+                                <div class="destination-price">Mulai dari Rp 5.000.000</div>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>(4.8)</span>
+                            </div>
+                            <h3>Bali</h3>
+                            <p>Pulau Dewata dengan keindahan pantai, budaya, dan kehidupan malam yang eksotis.</p>
+                            <div class="destination-meta">
+                                <span><i class="far fa-calendar-alt"></i> 5 Hari</span>
+                                <span><i class="fas fa-user-friends"></i> 10+ Orang</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100 mt-3">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-card">
+                        <div class="destination-img">
+                            <img src="images/raja-ampat.jpg" alt="Raja Ampat" class="img-fluid">
+                            <div class="destination-overlay">
+                                <div class="destination-price">Mulai dari Rp 8.500.000</div>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(5.0)</span>
+                            </div>
+                            <h3>Raja Ampat</h3>
+                            <p>Surga bawah laut dengan keanekaragaman hayati terkaya di dunia.</p>
+                            <div class="destination-meta">
+                                <span><i class="far fa-calendar-alt"></i> 7 Hari</span>
+                                <span><i class="fas fa-user-friends"></i> 8+ Orang</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100 mt-3">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-card">
+                        <div class="destination-img">
+                            <img src="images/labuan-bajo.jpg" alt="Labuan Bajo" class="img-fluid">
+                            <div class="destination-overlay">
+                                <div class="destination-price">Mulai dari Rp 7.000.000</div>
+                            </div>
+                        </div>
+                        <div class="destination-info">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <h3>Labuan Bajo</h3>
+                            <p>Rumah bagi Komodo dan pemandangan laut yang memukau di Flores.</p>
+                            <div class="destination-meta">
+                                <span><i class="far fa-calendar-alt"></i> 6 Hari</span>
+                                <span><i class="fas fa-user-friends"></i> 6+ Orang</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100 mt-3">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline-primary rounded-pill px-4">Lihat Semua Destinasi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Packages -->
+    <section id="packages" class="tour-packages section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>Paket Wisata Terbaik</h2>
+                <p>Pilihan paket wisata dengan pengalaman terbaik dan harga terjangkau</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-card">
+                        <div class="package-thumb">
+                            <img src="images/package-1.jpg" alt="Paket Bali" class="img-fluid">
+                            <span class="package-category">Populer</span>
+                        </div>
+                        <div class="package-details">
+                            <div class="package-info">
+                                <h3>Pesona Bali</h3>
+                                <div class="package-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>(120 ulasan)</span>
+                                </div>
+                            </div>
+                            <div class="package-price">
+                                <p><span>Rp 5.500.000</span> / orang</p>
+                            </div>
+                        </div>
+                        <div class="package-body">
+                            <p>Nikmati 5 hari menjelajahi keindahan Bali, termasuk Ubud, Kuta, dan Nusa Penida.</p>
+                            <ul class="package-included">
+                                <li><i class="fas fa-check"></i> Akomodasi hotel bintang 4</li>
+                                <li><i class="fas fa-check"></i> Transportasi AC</li>
+                                <li><i class="fas fa-check"></i> Pemandu wisata profesional</li>
+                                <li><i class="fas fa-check"></i> Makan 3x sehari</li>
+                                <li><i class="fas fa-check"></i> Tiket masuk objek wisata</li>
+                            </ul>
+                            <div class="package-meta">
+                                <span><i class="far fa-calendar-alt"></i> 5 Hari / 4 Malam</span>
+                                <span><i class="fas fa-user-friends"></i> Maks 15 Orang</span>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100 mt-3">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-card">
+                        <div class="package-thumb">
+                            <img src="images/package-2.jpg" alt="Paket Yogyakarta" class="img-fluid">
+                            <span class="package-category">Budaya</span>
+                        </div>
+                        <div class="package-details">
+                            <div class="package-info">
+                                <h3>Pesona Yogyakarta</h3>
+                                <div class="package-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(98 ulasan)</span>
+                                </div>
+                            </div>
+                            <div class="package-price">
+                                <p><span>Rp 3.800.000</span> / orang</p>
+                            </div>
+                        </div>
+                        <div class="package-body">
+                            <p>Jelajahi kota budaya Yogyakarta dengan mengunjungi Candi Borobudur, Prambanan, dan
+                                Keraton.</p>
+                            <ul class="package-included">
+                                <li><i class="fas fa-check"></i> Akomodasi hotel bintang 3</li>
+                                <li><i class="fas fa-check"></i> Transportasi AC</li>
+                                <li><i class="fas fa-check"></i> Pemandu wisata profesional</li>
+                                <li><i class="fas fa-check"></i> Makan 3x sehari</li>
+                                <li><i class="fas fa-check"></i> Tiket masuk objek wisata</li>
+                            </ul>
+                            <div class="package-meta">
+                                <span><i class="far fa-calendar-alt"></i> 4 Hari / 3 Malam</span>
+                                <span><i class="fas fa-user-friends"></i> Maks 12 Orang</span>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100 mt-3">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-card">
+                        <div class="package-thumb">
+                            <img src="images/package-3.jpg" alt="Paket Raja Ampat" class="img-fluid">
+                            <span class="package-category">Petualangan</span>
+                        </div>
+                        <div class="package-details">
+                            <div class="package-info">
+                                <h3>Eksotis Raja Ampat</h3>
+                                <div class="package-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(75 ulasan)</span>
+                                </div>
+                            </div>
+                            <div class="package-price">
+                                <p><span>Rp 9.500.000</span> / orang</p>
+                            </div>
+                        </div>
+                        <div class="package-body">
+                            <p>Nikmati keindahan surga bawah laut Raja Ampat dengan snorkeling dan diving di spot
+                                terbaik.</p>
+                            <ul class="package-included">
+                                <li><i class="fas fa-check"></i> Akomodasi resort</li>
+                                <li><i class="fas fa-check"></i> Transportasi speedboat</li>
+                                <li><i class="fas fa-check"></i> Pemandu wisata profesional</li>
+                                <li><i class="fas fa-check"></i> Makan 3x sehari</li>
+                                <li><i class="fas fa-check"></i> Peralatan snorkeling/diving</li>
+                            </ul>
+                            <div class="package-meta">
+                                <span><i class="far fa-calendar-alt"></i> 7 Hari / 6 Malam</span>
+                                <span><i class="fas fa-user-friends"></i> Maks 8 Orang</span>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100 mt-3">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="about" class="why-choose-us section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-img">
+                        <img src="images/about-us.jpg" alt="About Us" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-header mb-4">
+                        <h2>Mengapa Memilih TravelWonder?</h2>
+                        <p>Kami menawarkan pengalaman perjalanan terbaik dengan layanan premium</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="feature-box">
+                                <div class="feature-icon">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Destinasi Terbaik</h4>
+                                    <p>Kami memilih destinasi terbaik dengan pengalaman yang tak terlupakan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="feature-box">
+                                <div class="feature-icon">
+                                    <i class="fas fa-dollar-sign"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Harga Terjangkau</h4>
+                                    <p>Kami menawarkan harga terbaik dengan kualitas layanan premium.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="feature-box">
+                                <div class="feature-icon">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Dukungan 24/7</h4>
+                                    <p>Tim kami siap membantu Anda kapan saja dan di mana saja.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="feature-box">
+                                <div class="feature-icon">
+                                    <i class="fas fa-user-shield"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Perjalanan Aman</h4>
+                                    <p>Keamanan dan kenyamanan Anda adalah prioritas utama kami.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary rounded-pill px-4 mt-3">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>Apa Kata Mereka?</h2>
+                <p>Testimoni dari pelanggan yang telah menggunakan layanan kami</p>
+            </div>
+            <div class="row testimonial-slider">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="images/testimonial-1.jpg" alt="Testimonial" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Pengalaman liburan terbaik yang pernah saya alami. Pelayanan sangat profesional dan
+                                destinasi yang dipilih luar biasa indah. Pasti akan menggunakan jasa TravelWonder lagi!"
+                            </p>
+                            <div class="testimonial-author">
+                                <h5>Budi Santoso</h5>
+                                <span>Jakarta</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="images/testimonial-2.jpg" alt="Testimonial" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Saya sangat puas dengan layanan TravelWonder. Pemandu wisata sangat ramah dan
+                                berpengetahuan luas. Akomodasi yang disediakan juga sangat nyaman. Terima kasih
+                                TravelWonder!"</p>
+                            <div class="testimonial-author">
+                                <h5>Siti Nurhaliza</h5>
+                                <span>Surabaya</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-img">
+                            <img src="images/testimonial-3.jpg" alt="Testimonial" class="img-fluid rounded-circle">
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>"Perjalanan ke Raja Ampat bersama TravelWonder adalah pengalaman yang tak terlupakan.
+                                Keindahan bawah laut yang luar biasa dan pelayanan yang memuaskan. Sangat
+                                direkomendasikan!"</p>
+                            <div class="testimonial-author">
+                                <h5>Rudi Hartono</h5>
+                                <span>Bandung</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section-padding">
+        <div class="container">
+            <div class="newsletter-inner text-center">
+                <h2>Dapatkan Penawaran Eksklusif</h2>
+                <p>Berlangganan newsletter kami untuk mendapatkan informasi terbaru dan penawaran spesial</p>
+                <form class="newsletter-form">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Masukkan email Anda" required>
+                                <button class="btn btn-primary" type="submit">Berlangganan</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>Hubungi Kami</h2>
+                <p>Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Alamat</h4>
+                                <p>Jl. Merdeka No. 123, Jakarta Pusat, Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Telepon</h4>
+                                <p>+62 21 1234 5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>info@travelwonder.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Jam Kerja</h4>
+                                <p>Senin - Jumat: 09:00 - 17:00</p>
+                                <p>Sabtu: 09:00 - 14:00</p>
+                            </div>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="tel" class="form-control" placeholder="Telepon">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="Subjek" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <textarea class="form-control" rows="5" placeholder="Pesan" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100">Kirim Pesan</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h4>TravelWonder</h4>
+                        <p>Kami menyediakan pengalaman perjalanan terbaik dengan layanan premium dan destinasi eksotis
+                            pilihan.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h4>Tautan Cepat</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home">Beranda</a></li>
+                            <li><a href="#destinations">Destinasi</a></li>
+                            <li><a href="#packages">Paket</a></li>
+                            <li><a href="#about">Tentang Kami</a></li>
+                            <li><a href="#testimonials">Testimoni</a></li>
+                            <li><a href="#contact">Kontak</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h4>Destinasi Populer</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Bali</a></li>
+                            <li><a href="#">Raja Ampat</a></li>
+                            <li><a href="#">Labuan Bajo</a></li>
+                            <li><a href="#">Lombok</a></li>
+                            <li><a href="#">Yogyakarta</a></li>
+                            <li><a href="#">Danau Toba</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-widget">
+                        <h4>Hubungi Kami</h4>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> Jl. Merdeka No. 123, Jakarta Pusat</li>
+                            <li><i class="fas fa-phone-alt"></i> +62 21 1234 5678</li>
+                            <li><i class="fas fa-envelope"></i> info@travelwonder.com</li>
+                            <li><i class="fas fa-clock"></i> Senin - Jumat: 09:00 - 17:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2023 TravelWonder. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>Designed by <a href="#">TravelWonder Team</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

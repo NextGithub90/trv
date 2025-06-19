@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="overlay-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(0,0,0,0);stop-opacity:0" />
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0.7);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Sky -->
+  <rect width="800" height="600" fill="#87CEEB" />
+  
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="60" fill="#FFD700" />
+  
+  <!-- Ground -->
+  <rect y="350" width="800" height="250" fill="#228B22" />
+  
+  <!-- Borobudur Temple -->
+  <g transform="translate(400, 350)">
+    <!-- Base Levels -->
+    <rect x="-150" y="0" width="300" height="10" fill="#A9A9A9" />
+    <rect x="-140" y="-10" width="280" height="10" fill="#A9A9A9" />
+    <rect x="-130" y="-20" width="260" height="10" fill="#A9A9A9" />
+    <rect x="-120" y="-30" width="240" height="10" fill="#A9A9A9" />
+    <rect x="-110" y="-40" width="220" height="10" fill="#A9A9A9" />
+    
+    <!-- Middle Levels with Stupas -->
+    <rect x="-100" y="-50" width="200" height="10" fill="#A9A9A9" />
+    
+    <!-- Stupas on Middle Level -->
+    <g transform="translate(-80, -50)">
+      <circle cx="0" cy="-10" r="5" fill="#A9A9A9" />
+      <path d="M-5,-10 L5,-10 L0,-20 Z" fill="#A9A9A9" />
+    </g>
+    
+    <g transform="translate(-40, -50)">
+      <circle cx="0" cy="-10" r="5" fill="#A9A9A9" />
+      <path d="M-5,-10 L5,-10 L0,-20 Z" fill="#A9A9A9" />
+    </g>
+    
+    <g transform="translate(0, -50)">
+      <circle cx="0" cy="-10" r="5" fill="#A9A9A9" />
+      <path d="M-5,-10 L5,-10 L0,-20 Z" fill="#A9A9A9" />
+    </g>
+    
+    <g transform="translate(40, -50)">
+      <circle cx="0" cy="-10" r="5" fill="#A9A9A9" />
+      <path d="M-5,-10 L5,-10 L0,-20 Z" fill="#A9A9A9" />
+    </g>
+    
+    <g transform="translate(80, -50)">
+      <circle cx="0" cy="-10" r="5" fill="#A9A9A9" />
+      <path d="M-5,-10 L5,-10 L0,-20 Z" fill="#A9A9A9" />
+    </g>
+    
+    <!-- Upper Levels -->
+    <rect x="-80" y="-60" width="160" height="10" fill="#A9A9A9" />
+    <rect x="-70" y="-70" width="140" height="10" fill="#A9A9A9" />
+    <rect x="-60" y="-80" width="120" height="10" fill="#A9A9A9" />
+    
+    <!-- Main Central Stupa -->
+    <g transform="translate(0, -80)">
+      <rect x="-30" y="-10" width="60" height="10" fill="#A9A9A9" />
+      <rect x="-25" y="-20" width="50" height="10" fill="#A9A9A9" />
+      <rect x="-20" y="-30" width="40" height="10" fill="#A9A9A9" />
+      <circle cx="0" cy="-40" r="15" fill="#A9A9A9" />
+      <path d="M-10,-40 L10,-40 L0,-60 Z" fill="#A9A9A9" />
+    </g>
+    
+    <!-- Temple Details -->
+    <rect x="-140" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="-120" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="-100" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="-80" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="-60" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="-40" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="-20" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="0" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="20" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="40" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="60" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="80" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="100" y="-5" width="10" height="5" fill="#808080" />
+    <rect x="120" y="-5" width="10" height="5" fill="#808080" />
+  </g>
+  
+  <!-- Prambanan Temple (Smaller) -->
+  <g transform="translate(650, 400) scale(0.7)">
+    <!-- Base -->
+    <rect x="-60" y="0" width="120" height="10" fill="#A9A9A9" />
+    
+    <!-- Main Structures -->
+    <g transform="translate(-40, 0)">
+      <rect x="-15" y="-50" width="30" height="50" fill="#A9A9A9" />
+      <path d="M-15,-50 L15,-50 L0,-80 Z" fill="#A9A9A9" />
+    </g>
+    
+    <g transform="translate(0, 0)">
+      <rect x="-20" y="-70" width="40" height="70" fill="#A9A9A9" />
+      <path d="M-20,-70 L20,-70 L0,-110 Z" fill="#A9A9A9" />
+    </g>
+    
+    <g transform="translate(40, 0)">
+      <rect x="-15" y="-50" width="30" height="50" fill="#A9A9A9" />
+      <path d="M-15,-50 L15,-50 L0,-80 Z" fill="#A9A9A9" />
+    </g>
+    
+    <!-- Temple Details -->
+    <rect x="-50" y="-20" width="5" height="10" fill="#808080" />
+    <rect x="-40" y="-20" width="5" height="10" fill="#808080" />
+    <rect x="-30" y="-20" width="5" height="10" fill="#808080" />
+    
+    <rect x="-10" y="-30" width="5" height="15" fill="#808080" />
+    <rect x="0" y="-30" width="5" height="15" fill="#808080" />
+    <rect x="10" y="-30" width="5" height="15" fill="#808080" />
+    
+    <rect x="30" y="-20" width="5" height="10" fill="#808080" />
+    <rect x="40" y="-20" width="5" height="10" fill="#808080" />
+    <rect x="50" y="-20" width="5" height="10" fill="#808080" />
+  </g>
+  
+  <!-- Keraton (Sultan's Palace) -->
+  <g transform="translate(150, 450)">
+    <!-- Main Building -->
+    <rect x="-70" y="-50" width="140" height="50" fill="#CD853F" />
+    
+    <!-- Roof -->
+    <path d="M-80,-50 L80,-50 L0,-90 Z" fill="#8B4513" />
+    
+    <!-- Entrance -->
+    <rect x="-15" y="-30" width="30" height="30" fill="#A0522D" />
+    
+    <!-- Windows -->
+    <rect x="-50" y="-30" width="20" height="15" fill="#F5DEB3" />
+    <rect x="30" y="-30" width="20" height="15" fill="#F5DEB3" />
+    
+    <!-- Decorative Elements -->
+    <rect x="-70" y="-55" width="140" height="5" fill="#DAA520" />
+    <path d="M-5,-90 L5,-90 L0,-100 Z" fill="#DAA520" />
+  </g>
+  
+  <!-- Trees -->
+  <g transform="translate(250, 380)">
+    <rect x="-5" y="0" width="10" height="30" fill="#8B4513" />
+    <circle cx="0" cy="-15" r="25" fill="#228B22" />
+  </g>
+  
+  <g transform="translate(550, 400)">
+    <rect x="-5" y="0" width="10" height="30" fill="#8B4513" />
+    <circle cx="0" cy="-15" r="25" fill="#228B22" />
+  </g>
+  
+  <g transform="translate(100, 420)">
+    <rect x="-5" y="0" width="10" height="30" fill="#8B4513" />
+    <circle cx="0" cy="-15" r="25" fill="#228B22" />
+  </g>
+  
+  <g transform="translate(700, 430)">
+    <rect x="-5" y="0" width="10" height="30" fill="#8B4513" />
+    <circle cx="0" cy="-15" r="25" fill="#228B22" />
+  </g>
+  
+  <!-- Clouds -->
+  <g opacity="0.8">
+    <ellipse cx="200" cy="100" rx="50" ry="20" fill="white" />
+    <ellipse cx="230" cy="110" rx="40" ry="15" fill="white" />
+    <ellipse cx="170" cy="105" rx="30" ry="12" fill="white" />
+    
+    <ellipse cx="500" cy="150" rx="60" ry="25" fill="white" />
+    <ellipse cx="530" cy="160" rx="45" ry="20" fill="white" />
+    <ellipse cx="470" cy="155" rx="35" ry="15" fill="white" />
+  </g>
+  
+  <!-- People/Tourists -->
+  <g transform="translate(350, 500)">
+    <circle cx="0" cy="0" r="5" fill="#FFA07A" />
+    <rect x="-5" y="5" width="10" height="15" fill="#FF6347" />
+    <line x1="-5" y1="10" x2="-15" y2="15" stroke="#FFA07A" stroke-width="2" />
+    <line x1="5" y1="10" x2="15" y2="15" stroke="#FFA07A" stroke-width="2" />
+    <line x1="-2" y1="20" x2="-5" y2="35" stroke="#FFA07A" stroke-width="2" />
+    <line x1="2" y1="20" x2="5" y2="35" stroke="#FFA07A" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(380, 510)">
+    <circle cx="0" cy="0" r="5" fill="#FFA07A" />
+    <rect x="-5" y="5" width="10" height="15" fill="#4682B4" />
+    <line x1="-5" y1="10" x2="-15" y2="15" stroke="#FFA07A" stroke-width="2" />
+    <line x1="5" y1="10" x2="15" y2="15" stroke="#FFA07A" stroke-width="2" />
+    <line x1="-2" y1="20" x2="-5" y2="35" stroke="#FFA07A" stroke-width="2" />
+    <line x1="2" y1="20" x2="5" y2="35" stroke="#FFA07A" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(420, 505)">
+    <circle cx="0" cy="0" r="5" fill="#FFA07A" />
+    <rect x="-5" y="5" width="10" height="15" fill="#228B22" />
+    <line x1="-5" y1="10" x2="-15" y2="15" stroke="#FFA07A" stroke-width="2" />
+    <line x1="5" y1="10" x2="15" y2="15" stroke="#FFA07A" stroke-width="2" />
+    <line x1="-2" y1="20" x2="-5" y2="35" stroke="#FFA07A" stroke-width="2" />
+    <line x1="2" y1="20" x2="5" y2="35" stroke="#FFA07A" stroke-width="2" />
+  </g>
+  
+  <!-- Traditional Batik Pattern (Simplified) -->
+  <g transform="translate(50, 550)" opacity="0.3">
+    <path d="M0,0 C5,-5 10,-5 15,0 C20,-5 25,-5 30,0 C35,-5 40,-5 45,0" stroke="#8B4513" stroke-width="2" fill="none" />
+    <path d="M0,10 C5,5 10,5 15,10 C20,5 25,5 30,10 C35,5 40,5 45,10" stroke="#8B4513" stroke-width="2" fill="none" />
+    <path d="M0,20 C5,15 10,15 15,20 C20,15 25,15 30,20 C35,15 40,15 45,20" stroke="#8B4513" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- Overlay for Text Readability -->
+  <rect width="800" height="600" fill="url(#overlay-gradient)" />
+  
+  <!-- Package Title -->
+  <text x="400" y="550" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">Pesona Yogyakarta</text>
+  
+  <!-- Package Price -->
+  <text x="400" y="590" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Mulai dari Rp 3.800.000</text>
+</svg>

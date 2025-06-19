@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="water-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4169E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000080;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="mountain-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Sky -->
+  <rect width="800" height="600" fill="url(#sky-gradient)" />
+  
+  <!-- Sun -->
+  <circle cx="600" cy="120" r="60" fill="#FFA500" />
+  
+  <!-- Ocean -->
+  <rect y="300" width="800" height="300" fill="url(#water-gradient)" />
+  
+  <!-- Islands and Mountains -->
+  <path d="M0,300 L100,200 L200,250 L300,180 L400,250 L500,200 L600,280 L700,220 L800,300 L800,450 L0,450 Z" fill="url(#mountain-gradient)" />
+  
+  <!-- Green Vegetation on Islands -->
+  <path d="M0,300 L100,200 L200,250 L300,180 L400,250 L500,200 L600,280 L700,220 L800,300 L800,400 L0,400 Z" fill="#228B22" opacity="0.7" />
+  
+  <!-- Beach Areas -->
+  <path d="M50,300 C70,290 90,295 110,285 L110,400 L50,400 Z" fill="#F0E68C" />
+  <path d="M350,250 C370,245 390,240 410,245 L410,400 L350,400 Z" fill="#F0E68C" />
+  <path d="M650,280 C670,275 690,280 710,290 L710,400 L650,400 Z" fill="#F0E68C" />
+  
+  <!-- Komodo Dragon -->
+  <g transform="translate(250, 350) scale(0.8)">
+    <!-- Body -->
+    <path d="M0,0 L80,0 C90,0 90,10 80,10 L0,10 C-10,10 -10,0 0,0 Z" fill="#556B2F" />
+    
+    <!-- Head -->
+    <path d="M-10,5 L0,0 L0,10 Z" fill="#556B2F" />
+    
+    <!-- Tail -->
+    <path d="M80,5 C100,5 120,-5 140,5 C120,5 100,15 80,5 Z" fill="#556B2F" />
+    
+    <!-- Legs -->
+    <rect x="10" y="10" width="5" height="10" fill="#556B2F" />
+    <rect x="30" y="10" width="5" height="10" fill="#556B2F" />
+    <rect x="50" y="10" width="5" height="10" fill="#556B2F" />
+    <rect x="70" y="10" width="5" height="10" fill="#556B2F" />
+  </g>
+  
+  <!-- Traditional Boat (Phinisi) -->
+  <g transform="translate(500, 350)">
+    <!-- Hull -->
+    <path d="M-60,0 L60,0 L40,-20 L-40,-20 Z" fill="#8B4513" />
+    
+    <!-- Masts -->
+    <rect x="-30" y="-70" width="4" height="50" fill="#8B4513" />
+    <rect x="0" y="-80" width="4" height="60" fill="#8B4513" />
+    <rect x="30" y="-70" width="4" height="50" fill="#8B4513" />
+    
+    <!-- Sails -->
+    <path d="M-30,-70 L-30,-20 L-10,-45 Z" fill="#FFFFFF" />
+    <path d="M0,-80 L0,-20 L20,-50 Z" fill="#FFFFFF" />
+    <path d="M30,-70 L30,-20 L50,-45 Z" fill="#FFFFFF" />
+  </g>
+  
+  <!-- Palm Trees -->
+  <g transform="translate(100, 300)">
+    <rect x="-4" y="0" width="8" height="40" fill="#8B4513" />
+    <path d="M0,0 C-25,-8 -35,-25 -15,-35 C-35,-25 -40,-45 -20,-50 C-40,-45 -45,-65 -25,-70 C-10,-65 0,-60 0,-60 C0,-60 10,-65 25,-70 C45,-65 40,-45 20,-50 C40,-45 35,-25 15,-35 C35,-25 25,-8 0,0 Z" fill="#228B22" />
+  </g>
+  
+  <g transform="translate(400, 250)">
+    <rect x="-4" y="0" width="8" height="40" fill="#8B4513" />
+    <path d="M0,0 C-25,-8 -35,-25 -15,-35 C-35,-25 -40,-45 -20,-50 C-40,-45 -45,-65 -25,-70 C-10,-65 0,-60 0,-60 C0,-60 10,-65 25,-70 C45,-65 40,-45 20,-50 C40,-45 35,-25 15,-35 C35,-25 25,-8 0,0 Z" fill="#228B22" />
+  </g>
+  
+  <g transform="translate(700, 280)">
+    <rect x="-4" y="0" width="8" height="40" fill="#8B4513" />
+    <path d="M0,0 C-25,-8 -35,-25 -15,-35 C-35,-25 -40,-45 -20,-50 C-40,-45 -45,-65 -25,-70 C-10,-65 0,-60 0,-60 C0,-60 10,-65 25,-70 C45,-65 40,-45 20,-50 C40,-45 35,-25 15,-35 C35,-25 25,-8 0,0 Z" fill="#228B22" />
+  </g>
+  
+  <!-- Small Fishing Boat -->
+  <g transform="translate(300, 500)">
+    <path d="M-20,0 L20,0 L15,-10 L-15,-10 Z" fill="#A0522D" />
+    <rect x="-1" y="-20" width="2" height="10" fill="#A0522D" />
+    <path d="M-1,-20 L-1,-10 L5,-15 Z" fill="#FFFFFF" />
+  </g>
+  
+  <!-- Clouds -->
+  <g opacity="0.8">
+    <ellipse cx="200" cy="100" rx="50" ry="20" fill="white" />
+    <ellipse cx="230" cy="110" rx="40" ry="15" fill="white" />
+    <ellipse cx="170" cy="105" rx="30" ry="12" fill="white" />
+    
+    <ellipse cx="500" cy="150" rx="60" ry="25" fill="white" />
+    <ellipse cx="530" cy="160" rx="45" ry="20" fill="white" />
+    <ellipse cx="470" cy="155" rx="35" ry="15" fill="white" />
+  </g>
+  
+  <!-- Birds -->
+  <g>
+    <path d="M250,150 C255,145 260,145 265,150 C270,145 275,145 280,150" stroke="#000000" stroke-width="2" fill="none" />
+    <path d="M350,170 C355,165 360,165 365,170 C370,165 375,165 380,170" stroke="#000000" stroke-width="2" fill="none" />
+    <path d="M450,130 C455,125 460,125 465,130 C470,125 475,125 480,130" stroke="#000000" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- Water Reflections -->
+  <g opacity="0.3">
+    <ellipse cx="600" cy="500" rx="40" ry="10" fill="#FFA500" />
+    <path d="M470,500 L530,500 L500,480 Z" fill="#8B4513" opacity="0.5" />
+  </g>
+  
+  <!-- Water Surface Details -->
+  <g stroke="#FFFFFF" stroke-width="1" opacity="0.3">
+    <path d="M50,450 C70,452 90,448 110,450" fill="none" />
+    <path d="M200,460 C220,462 240,458 260,460" fill="none" />
+    <path d="M350,470 C370,472 390,468 410,470" fill="none" />
+    <path d="M500,480 C520,482 540,478 560,480" fill="none" />
+    <path d="M650,490 C670,492 690,488 710,490" fill="none" />
+  </g>
+</svg>
